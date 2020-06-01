@@ -35,7 +35,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
                 <div className="viewport-top">
                     {/* The main header section on top of the screen */}
-                    <header className="site-head" style={{ ...site.cover_image && { backgroundImage: `url(${site.cover_image})` } }}>
+                    {/* {{ backgroundImage: "linear-gradient(#851835, #851835, #000000, #000000);" }} */}
+                    <header className="site-head" style={{ backgroundImage: `linear-gradient(#851835, #851835, #000000, #000000)` }}>
                         <div className="container">
                             <div className="site-mast">
                                 <div className="site-mast-left">
